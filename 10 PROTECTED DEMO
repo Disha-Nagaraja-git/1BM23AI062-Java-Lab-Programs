@@ -1,0 +1,45 @@
+class A {
+    int defaultVar;
+    protected int protectedVar;
+    private int privateVar;
+    public int publicVar;
+
+    public A() {
+        this.defaultVar = 10;
+        this.protectedVar = 20;
+        this.privateVar = 30;
+        this.publicVar = 40;
+    }
+}
+
+
+class B extends A {
+    public void display() {
+        System.out.println("Accessing from class B (extends A):");
+        System.out.println("Default Variable: " + defaultVar);
+        System.out.println("Protected Variable: " + protectedVar);
+        System.out.println("Public Variable: " + publicVar);
+    }
+}
+
+
+
+class C {
+    public void display() {
+        A objA = new A();
+        System.out.println("Accessing from class C (using object of A):");
+        System.out.println("Public Variable: " + objA.publicVar);
+    }
+}
+
+
+public class ProtectedDemo {
+    public static void main(String[] args) {
+        B objB = new B();
+        C objC = new C();
+
+        objB.display();
+        objC.display();
+    }
+}
+
