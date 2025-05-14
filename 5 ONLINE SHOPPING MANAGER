@@ -1,0 +1,76 @@
+import java.util.Vector;
+
+class Product {
+    private String name;
+    private double price;
+    private String category;
+
+    public Product(String name, double price, String category) {
+        this.name = name;
+        this.price = price;
+        this.category = category;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void displayProduct() {
+        System.out.println("Name: " + name + ", Price: $" + price + ", Category: " + category);
+    }
+}
+
+public class ONLINESHOPPINGMANAGER {
+    private Vector<Product> inventory;
+
+    public ONLINESHOPPINGMANAGER() {
+        inventory = new Vector<>();
+    }
+
+    public void addProduct(String name, double price, String category) {
+        Product newProduct = new Product(name, price, category);
+        inventory.add(newProduct);
+    }
+
+    public void removeProduct(String name) {
+        for (int i = 0; i < inventory.size(); i++) {
+            Product product = inventory.get(i);
+            if (product.getName().equals(name)) {
+                inventory.remove(i);
+                return;
+            }
+        }
+    }
+
+    public void displayAllProducts() {
+        if (inventory.isEmpty()) {
+            System.out.println("The inventory is empty.");
+        } else {
+            for (Product product : inventory) {
+                product.displayProduct();
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        ONLINESHOPPINGMANAGER shoppingManager = new ONLINESHOPPINGMANAGER();
+
+        shoppingManager.addProduct("Laptop", 999.99, "Electronics");
+        shoppingManager.addProduct("Smartphone", 499.99, "Electronics");
+        shoppingManager.addProduct("T-Shirt", 19.99, "Clothing");
+
+        shoppingManager.displayAllProducts();
+
+        shoppingManager.removeProduct("Smartphone");
+
+        shoppingManager.displayAllProducts();
+    }
+}
