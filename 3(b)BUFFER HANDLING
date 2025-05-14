@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class BufferHandling {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        StringBuffer buffer = new StringBuffer();
+        System.out.println("Initial capacity of StringBuffer: " + buffer.capacity());
+
+        System.out.print("Enter a string to reverse and convert to uppercase: ");
+        String input1 = scanner.nextLine();
+
+        StringBuffer reversedBuffer = new StringBuffer(input1);
+        reversedBuffer.reverse();
+        String reversedUpper = reversedBuffer.toString().toUpperCase();
+
+        System.out.println("Reversed and uppercased string: " + reversedUpper);
+
+        System.out.print("Enter another string to append: ");
+        String input2 = scanner.nextLine();
+
+        String finalString = reversedUpper + input2;
+        System.out.println("Final concatenated string: " + finalString);
+
+        StringBuffer finalBuffer = new StringBuffer(finalString);
+        System.out.println("Final capacity of StringBuffer after appending: " + finalBuffer.capacity());
+
+        scanner.close();
+    }
+}
