@@ -43,3 +43,13 @@ public class ProtectedDemo {
     }
 }
 
+
+OUTPUT:
+Accessing from class B (extends A):
+Default Variable: 10
+Protected Variable: 20
+Public Variable: 40
+Accessing from class C (using object of A):
+Public Variable: 40
+
+
