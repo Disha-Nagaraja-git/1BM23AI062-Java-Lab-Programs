@@ -74,3 +74,11 @@ public class ONLINESHOPPINGMANAGER {
         shoppingManager.displayAllProducts();
     }
 }
+
+
+OUTPUT:
+Name: Laptop, Price: $999.99, Category: Electronics
+Name: Smartphone, Price: $499.99, Category: Electronics
+Name: T-Shirt, Price: $19.99, Category: Clothing
+Name: Laptop, Price: $999.99, Category: Electronics
+Name: T-Shirt, Price: $19.99, Category: Clothing
