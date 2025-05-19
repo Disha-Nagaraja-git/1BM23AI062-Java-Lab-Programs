@@ -30,3 +30,12 @@ public class WRAPPERS {
 }
 
 
+OUTPUT:
+Boxing and Unboxing Demo:
+Boxed Integer: 10 --> Unboxed Integer: 10
+Boxed Float: 5.5 --> Unboxed Float: 5.5
+Boxed Boolean: true --> Unboxed Boolean: true
+Boxed Character: A --> Unboxed Character: A
+String: Hello
+
+
