@@ -28,3 +28,12 @@ public class BufferHandling {
         scanner.close();
     }
 }
+
+
+OUTPUT:
+Initial capacity of StringBuffer: 16
+Enter a string to reverse and convert to uppercase: ahsid
+Reversed and uppercased string: DISHA
+Enter another string to append: sharanya
+Final concatenated string: DISHAsharanya
+Final capacity of StringBuffer after appending: 29
