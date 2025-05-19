@@ -51,3 +51,11 @@ public class Main {
     }
 }
 
+
+OUTPUT:
+Deposited Rs1000.0. Current balance: Rs1500.0
+Deposited Rs1500.0. Current balance: Rs2000.0
+Withdrawn Rs600.0. Current balance: Rs900.0
+Withdrawn Rs1200.0. Current balance: Rs800.0
+
+
