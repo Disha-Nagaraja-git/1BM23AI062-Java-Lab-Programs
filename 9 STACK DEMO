@@ -145,3 +145,21 @@ public class StackDemo {
     }
 }
 
+
+OUTPUT:
+Pushed 10 to FixedLengthStack.
+Pushed 20 to FixedLengthStack.
+Pushed 30 to FixedLengthStack.
+Stack Overflow! Cannot push 40
+Peek of FixedLengthStack: 30
+Popped from FixedLengthStack: 30
+Popped from FixedLengthStack: 20
+Pushed 100 to DynamicLengthStack.
+Pushed 200 to DynamicLengthStack.
+Pushed 300 to DynamicLengthStack.
+Pushed 400 to DynamicLengthStack.
+Pushed 500 to DynamicLengthStack.
+Peek of DynamicLengthStack: 500
+Popped from DynamicLengthStack: 500
+Popped from DynamicLengthStack: 400
+
