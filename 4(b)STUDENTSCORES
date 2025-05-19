@@ -24,3 +24,16 @@ public class STUDENTSCORES {
     }
 }
 
+
+OUTPUT:
+Enter exam scores for 5 students:
+Student 1 score: 96
+Student 2 score: 97
+Student 3 score: 98
+Student 4 score: 99
+Student 5 score: 100
+
+--- Exam Statistics ---
+Total score: 490
+Highest score: 100
+
