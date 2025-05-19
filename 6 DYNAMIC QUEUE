@@ -94,3 +94,13 @@ public class DynamicQueue<T> {
 }
 
 
+OUTPUT:
+Queue resized to capacity: 6
+Front element: 10
+Dequeued: 10
+Dequeued: 20
+Dequeued: 30
+Dequeued: 40
+Dequeued from string queue: Hello
+
+
