@@ -73,3 +73,62 @@ public class StringFunction {
         }
     }
 }
+
+
+OUTPUT:
+=== Language Learning Text Processing Tool ===
+1. Compare Strings (case-sensitive)
+2. Compare Strings (case-insensitive)
+3. Concatenate Strings
+4. Copy String
+5. Exit
+Choose an option: 1
+Enter first string: HELLO
+Enter second string: hello
+Strings are NOT equal.
+
+=== Language Learning Text Processing Tool ===
+1. Compare Strings (case-sensitive)
+2. Compare Strings (case-insensitive)
+3. Concatenate Strings
+4. Copy String
+5. Exit
+Choose an option: 2
+Enter first string: HELLO
+Enter second string: hello
+Strings are equal (case-insensitive).
+
+=== Language Learning Text Processing Tool ===
+1. Compare Strings (case-sensitive)
+2. Compare Strings (case-insensitive)
+3. Concatenate Strings
+4. Copy String
+5. Exit
+Choose an option: 3
+Enter first string: GOOD
+Enter second string: MORNING
+Concatenated String: GOODMORNING
+
+=== Language Learning Text Processing Tool ===
+1. Compare Strings (case-sensitive)
+2. Compare Strings (case-insensitive)
+3. Concatenate Strings
+4. Copy String
+5. Exit
+Choose an option: 4
+Enter a string to copy: HEY
+How many copies? 5
+Copy 1: HEY
+Copy 2: HEY
+Copy 3: HEY
+Copy 4: HEY
+Copy 5: HEY
+
+=== Language Learning Text Processing Tool ===
+1. Compare Strings (case-sensitive)
+2. Compare Strings (case-insensitive)
+3. Concatenate Strings
+4. Copy String
+5. Exit
+Choose an option: 5
+Exiting program.
