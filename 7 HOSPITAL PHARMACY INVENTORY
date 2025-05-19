@@ -100,4 +100,17 @@ public class HOSPITALPHARMACYINVENTORY {
 }
 
 
+OUTPUT:
+Inventory List:
+ID: M001 | Name: Paracetamol | Quantity: 100 | Price: 0.50
+ID: M002 | Name: Amoxicillin | Quantity: 50 | Price: 1.20
+ID: S001 | Name: Syringe | Quantity: 200 | Price: 0.15
+Item M001 updated.
+Found item: ID: M002 | Name: Amoxicillin | Quantity: 50 | Price: 1.20
+Item S001 removed.
+Inventory List:
+ID: M001 | Name: Paracetamol | Quantity: 120 | Price: 0.50
+ID: M002 | Name: Amoxicillin | Quantity: 50 | Price: 1.20
+
+
 
